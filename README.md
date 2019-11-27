@@ -8,7 +8,7 @@ simplexdesign can be downloaded and installed inside of RStudio by using the dev
 
 once devtools is installed, run:
 > library(devtools)
-> install_github("kquinlan/simplexdesign")
+> install_github("LLNL/simplexdesign")
 
 
 Documentation
@@ -31,8 +31,8 @@ Licenses
 
 simplexdesign is distributed under the terms of the MIT license
 
-See [LICENSE](https://github.com/simplexdesign/simplexdesign/blob/develop/LICENSE), and
-[NOTICE](https://github.com/simplexdesign/simplexdesign/blob/develop/NOTICE) for details.
+See [LICENSE](https://raw.githubusercontent.com/LLNL/simplexdesign/master/LICENSE), and
+[NOTICE](https://raw.githubusercontent.com/LLNL/simplexdesign/master/NOTICE) for details.
 
 SPDX-License-Identifier: MIT
 
