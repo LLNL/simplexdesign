@@ -15,9 +15,9 @@
 #'
 #' @return \describe{
 #' \item{Design}{The design optimized to minimize pairwise correlations between input classes.}
-#' \item{CritVals}{The pairwise correlations at each temperature change, useful for checking if the SA algorihtm has converged.}
+#' \item{CritVals}{The pairwise correlations at each temperature change, useful for checking if the SA algorithm has converged.}
 #' }
-#' @details This function optimizes run order within each block of a design made of multiple simplexes to minimize pairwise correlations using a Simulated Annealing algorithm.  The criterion of interest is the sum of squared cor(\eqn{xi},\eqn{xj}) for all pairs of columns between classes.  It is reccomended that the parameters (such as ti, tf, and iter) are scaled with the size of the design size, and that the criterion values should settle to some local optimal value.
+#' @details This function optimizes run order within each block of a design made of multiple simplexes to minimize pairwise correlations using a Simulated Annealing algorithm.  The criterion of interest is the sum of squared cor(\eqn{xi},\eqn{xj}) for all pairs of columns between classes.  It is recommended that the parameters (such as ti, tf, and iter) are scaled with the size of the design size, and that the criterion values should settle to some local optimal value.
 #'
 #' @export
 #'

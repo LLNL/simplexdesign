@@ -15,7 +15,7 @@
 #' @param cords Number of coordinates to exchange simultaneously using an exchange algorithm
 #' @param randst Number of random starts to the design
 #' @param phival Value of p in the PhiP criterion
-#' @param tol Tolerence of the optimization, the value for which an improvement smaller than this ends the optimization
+#' @param tol Tolerance of the optimization, the value for which an improvement smaller than this ends the optimization
 #'
 #' @return \describe{
 #' \item{D1}{The optimal design among the random starts standardized to [0,1]}

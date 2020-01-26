@@ -19,7 +19,7 @@ MmSimplex(k,N,l,cords = 1, randst = 1, phival = 50, tol = 0.0001)
 
 \item{phival}{Value of p in the PhiP criterion}
 
-\item{tol}{Tolerence of the optimization, the value for which an improvement smaller than this ends the optimization}
+\item{tol}{Tolerance of the optimization, the value for which an improvement smaller than this ends the optimization}
 }
 \value{
 \describe{
@@ -39,13 +39,13 @@ This is done for optimization purposes since it is a smoother criteria.
 \examples{
 ## Generate Design
 time1 <- Sys.time()
-D1 <- MmSimplex(10,40,10,cords = 1,randst = 5,phival = 50)
+D1 <- MmSimplex(5,40,10,cords = 1,randst = 2,phival = 50)
 Sys.time() - time1
 
-##View best design scaled to [0,1]^10
+##View best design scaled to [0,1]^5
 D1[[1]]
 
-##View PhiP criterion for best design among 10 random starts
+##View PhiP criterion for best design among 2 random starts
 D1[[2]]
 
 }
