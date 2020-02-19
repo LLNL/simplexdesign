@@ -4,10 +4,11 @@ Title: Simplex Design for Stochastic Simulations and Agent Based Models
 Version: 0.1.0
 Authors@R: c(person(c("Kevin", "R."), "Quinlan", role = c("aut", "cre"),
                      email = "quinlan5@llnl.gov"),
-              person(c("Jim", "R."), "Leek", role = "aut"))
-Author: Kevin R. Quinlan [aut, cre], Jim R. Leek [aut]
+              person(c("Jim", "R."), "Leek", role = "aut"),
+	      person(“Lawrence Livermore National Security”, role = “cph”) )
+Author: Kevin R. Quinlan [aut, cre], Jim R. Leek [aut], Lawrence Livermore National Security[cph]
 Maintainer: Kevin R. Quinlan <quinlan5@llnl.gov>
-Description: Design statistical experiments on Agent Based Models, including a coordinate exchange algorithm for homogeneous agents, and more generally any simplex.  There is also an optimization algorithm for the case with multiple classes of homogeneous agents. See our paper "Uncertainty Quantification for Models of Homogeneous Agents" for more details when it is published.   
+Description: Design statistical experiments on agent based models, including a coordinate exchange algorithm for homogeneous agents, and more generally any simplex.  There is also an optimization algorithm for the case with multiple classes of homogeneous agents. See our paper "Uncertainty Quantification for Models of Homogeneous Agents" for more details when it is published.   
 Depends: R (>= 3.6.0)
 Imports: ggplot2 (>= 3.2.1),
          GGally (>= 1.4.0),
